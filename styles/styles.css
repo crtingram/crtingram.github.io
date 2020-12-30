@@ -1,0 +1,14 @@
+body {
+    min-height: 800px;
+    max-width: 1028px;
+    margin: auto;
+    box-shadow: 5px 5px 5px 3px;
+}
+
+.ptop {
+    padding-top: 20px;
+}
+
+.pbottom {
+    padding-bottom: 20px;
+}
