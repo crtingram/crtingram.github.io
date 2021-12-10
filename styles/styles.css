@@ -1,5 +1,17 @@
 /* Base styles */
 
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    -moz-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    padding: 4em 1em;
+    background: rgb(179, 179, 185);
+    color: #566b78;
+    margin: 0;
+    padding: 0;
+}
+
 a strong {
     color: inherit;
 }
@@ -35,22 +47,11 @@ header,
 main {
     margin: 0 auto;
     max-width: 50em;
-}
-
-
-/* 02 Font family */
-
-body {
-    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: tomato;
 }
 
 
 /* 03 Spacing */
-
-body {
-    line-height: 1.5;
-    padding: 4em 1em;
-}
 
 h2 {
     margin-top: 1em;
@@ -59,10 +60,6 @@ h2 {
 
 
 /* 04 Color and contrast */
-
-body {
-    color: #555;
-}
 
 h1,
 h2,
@@ -96,11 +93,6 @@ a {
 
 
 /* 07 Secondary colors */
-
-body {
-    background: white;
-    color: #566b78;
-}
 
 code,
 pre {
@@ -142,12 +134,6 @@ pre {
 
 /* 08 Custom font */
 
-body {
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    -moz-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-}
-
 h1,
 h2,
 strong {
@@ -156,11 +142,6 @@ strong {
 
 
 /* 09 Images */
-
-body {
-    margin: 0;
-    padding: 0;
-}
 
 main {
     padding: 4em 1em;
@@ -174,7 +155,7 @@ header {
     background-size: cover;
     line-height: 1.2;
     max-width: none;
-    padding: 10vw 2em;
+    padding: 8.5vw 2em;
     text-align: center;
 }
 
